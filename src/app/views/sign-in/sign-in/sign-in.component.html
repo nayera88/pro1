@@ -1,0 +1,12 @@
+
+<form>
+  
+<div class="col-md-3">
+<input [(ngModel)]="user.username" name="username" class="form-control" type="text" placeholder="UserName" >
+<input [(ngModel)]="user.password" name="password" class="form-control" type="text"   placeholder="Password" value="Password" >
+<ul class="nav">
+  <li class="nav-item"> 
+  <button (click)="SignIn()" type="button" routerLink="/user" class="btn btn-primary form-control m-1" >Login</button>
+</ul>
+  </div>
+</form>
